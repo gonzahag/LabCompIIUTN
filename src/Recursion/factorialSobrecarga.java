@@ -2,6 +2,7 @@ package Recursion;
 
 public class factorialSobrecarga {
 
+    //Creo el primer método usando recursión
     public static int factorial(int numero){
         if (numero == 1 || numero == 0){
             return 1;
@@ -10,6 +11,7 @@ public class factorialSobrecarga {
         }
     }
 
+    //Creo el segundo método usando un booleano que me diga de usar iteración.
     public static int factorial(int numero, boolean recursion){
         int resultado = 1;
         if(!recursion){
