@@ -88,7 +88,7 @@ class Teacher extends People {
 }
 
 // Clase Curso, que contiene un ArrayList de estudiantes y un objeto de la clase Profesor
-class ClassRoom {
+class   ClassRoom {
     ArrayList<Studient> estudiantes;
     Teacher profesor;
 
