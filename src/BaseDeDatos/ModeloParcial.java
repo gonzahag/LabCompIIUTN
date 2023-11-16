@@ -201,10 +201,11 @@ class HospitalBaseDatos{
         Date fechaActual = new Date(2023 - 1900, 11 - 1, 15);
         Paciente paciente = new Paciente("Perez", 25, "Ninguno", 1, fechaActual);
         Paciente paciente2 = new Paciente("Carlitos", 25, "Ninguno", 1, fechaActual);
-        hospital.agregarPaciente(paciente);
-        hospital.agregarPaciente(paciente2);
+        //hospital.agregarPaciente(paciente);
+        //hospital.agregarPaciente(paciente2);
 
-        //hospital.eliminarPaciente("Perez");
+        hospital.eliminarPaciente("Perez");
+        hospital.eliminarPaciente("Carlitos");
 
 
         hospital.asignarDoctorCabecera("Doctor1", "Carlitos");
