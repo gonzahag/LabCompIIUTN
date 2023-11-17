@@ -353,6 +353,8 @@ class SistemaDeVentas{
             Vendedor vendedorBuscado = new Vendedor("SELECT * FROM `vendedores` WHERE `vendedor_id` = 3");
             System.out.println(vendedorBuscado);
              */
+
+
             /*  4. Obtener los datos de un vendedor
             System.out.println(comerciales.obtenerVendedorPorId(3));
             */
@@ -366,12 +368,12 @@ class SistemaDeVentas{
              */
 
             /* 7. Obtener producto más vendido
-            System.out.println(productos.obtenerProductoMasVendido())
+            System.out.println(productos.obtenerProductoMasVendido());
             */
 
             /*8. Listado de vendedores
             System.out.println("\n" + comerciales.listaDeVendedores());
-             */
+            */
 
 
         }
